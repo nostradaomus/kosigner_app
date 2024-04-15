@@ -8,8 +8,8 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12">
-          <h2 class="h2 font-playfair-display text-slate-800 mb-4">Built for renters and properties alike</h2>
-          <p class="text-xl text-slate-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+          <h2 class="h2 font-gt-america text-slate-800 mb-4">Made for properties and renters</h2>
+          <p class="text-xl text-slate-500">Our platform is taylor made to help renters get approved for homes and to show properties the value of expanding their tenant pool, we're here for you.</p>
         </div>
 
         <!-- Section content -->
@@ -20,40 +20,40 @@
             <button class="text-center transition-opacity" :class="tab === 1 || 'opacity-50 hover:opacity-75'" @click="tab = 1">
               <div class="inline-flex bg-white rounded-full shadow-md mb-3">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
-                  <path fill="#2174EA" d="M20 20h6v16h-6z" />
-                  <path fill-opacity=".64" fill="#5091EE" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
+                  <path fill="#0d9488" d="M20 20h6v16h-6z" />
+                  <path fill-opacity=".64" fill="#0d9488" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
                 </svg>
               </div>
-              <div class="md:text-lg leading-tight font-semibold text-slate-800">The renter perspective</div>
+              <div class="md:text-lg leading-tight font-semibold text-slate-800">Invite tenants</div>
             </button>
             <button class="text-center transition-opacity" :class="tab === 2 || 'opacity-50 hover:opacity-75'" @click="tab = 2">
               <div class="inline-flex bg-white rounded-full shadow-md mb-3">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-opacity=".64" fill="#5091EE" d="M33 23v8h3V20H25v3z" />
-                  <path fill="#2174EA" d="M20 25h11v11H20z" />
+                  <path fill-opacity=".64" fill="#0d9488" d="M33 23v8h3V20H25v3z" />
+                  <path fill="#0d9488" d="M20 25h11v11H20z" />
                 </svg>
               </div>
-              <div class="md:text-lg leading-tight font-semibold text-slate-800">The property perspective</div>
+              <div class="md:text-lg leading-tight font-semibold text-slate-800">Track applications</div>
             </button>
             <button class="text-center transition-opacity" :class="tab === 3 || 'opacity-50 hover:opacity-75'" @click="tab = 3">
               <div class="inline-flex bg-white rounded-full shadow-md mb-3">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-opacity=".64" fill="#5091EE" d="M20 27l7-7h-7z" />
-                  <path fill="#2174EA" d="M29 20l7 7v-7z" />
-                  <path fill-opacity=".64" fill="#5091EE" d="M36 29l-7 7h7z" />
-                  <path fill="#2174EA" d="M27 36l-7-7v7z" />
+                  <path fill-opacity=".64" fill="#0d9488" d="M20 27l7-7h-7z" />
+                  <path fill="#0d9488" d="M29 20l7 7v-7z" />
+                  <path fill-opacity=".64" fill="#0d9488" d="M36 29l-7 7h7z" />
+                  <path fill="#0d9488" d="M27 36l-7-7v7z" />
                 </svg>
               </div>
-              <div class="md:text-lg leading-tight font-semibold text-slate-800">What modern data tells us</div>
+              <div class="md:text-lg leading-tight font-semibold text-slate-800">Review leases</div>
             </button>
             <button class="text-center transition-opacity" :class="tab === 4 || 'opacity-50 hover:opacity-75'" @click="tab = 4">
               <div class="inline-flex bg-white rounded-full shadow-md mb-3">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M24 28h-4v4.9c0 1 .7 1.9 1.7 2.1 1.2.2 2.3-.8 2.3-2v-5z" fill-opacity=".64" fill="#5091EE" />
-                  <path d="M35 21h-8c-.6 0-1 .4-1 1v11c0 .7-.2 1.4-.6 2H33c1.7 0 3-1.3 3-3V22c0-.6-.4-1-1-1z" fill="#2174EA" />
+                  <path d="M24 28h-4v4.9c0 1 .7 1.9 1.7 2.1 1.2.2 2.3-.8 2.3-2v-5z" fill-opacity=".64" fill="#0d9488" />
+                  <path d="M35 21h-8c-.6 0-1 .4-1 1v11c0 .7-.2 1.4-.6 2H33c1.7 0 3-1.3 3-3V22c0-.6-.4-1-1-1z" fill="#0d9488" />
                 </svg>
               </div>
-              <div class="md:text-lg leading-tight font-semibold text-slate-800">You and the bigger picture</div>
+              <div class="md:text-lg leading-tight font-semibold text-slate-800">Resolve issues</div>
             </button>
           </div>
 

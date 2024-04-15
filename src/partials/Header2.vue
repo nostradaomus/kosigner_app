@@ -1,13 +1,13 @@
 <template>
   <header class="absolute w-full z-30 mt-2" :class="{ 'dark': mode !== 'light' }">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto pt-2 pr-4 md:px-4">
       <div class="flex items-center justify-between h-16 md:h-20">
 
         <!-- Site branding -->
         <div class="shrink-0 mr-4">
           <!-- Logo -->
         <router-link class="block" to="/">
-        <img class="h-20" src="../images/kosigner.png" alt="kosigner logo" />
+          <img class="h-20" src="../images/kosigner.png" alt="kosigner logo" />
         </router-link>
         </div>
 
@@ -20,6 +20,13 @@
               <router-link to="/about" class="font-medium text-slate-800 hover:text-slate-100 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About</router-link>
             </li>
             <li>
+              <router-link to="/updates" class="font-medium text-slate-800 hover:text-slate-100 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Updates</router-link>
+            </li>
+            <li>
+              <router-link to="/case-study" class="font-medium text-slate-800 hover:text-slate-100 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Case Study</router-link>
+            </li>
+            <!--
+            <li>
               <router-link to="/pricing" class="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</router-link>
             </li>
             <li>
@@ -28,7 +35,6 @@
             <li>
               <router-link to="/customers" class="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Community</router-link>
             </li>
-            <!-- 1st level: hover -->
             <Dropdown title="Resources">
               <li>
                 <router-link to="/case-study" class="font-medium text-sm text-slate-600 hover:text-teal-600 flex py-2 px-5 leading-tight">Case Study</router-link>
@@ -37,10 +43,11 @@
                 <router-link to="/support" class="font-medium text-sm text-slate-600 hover:text-teal-600 flex py-2 px-5 leading-tight">Support center</router-link>
               </li>
             </Dropdown>
+            -->
           </ul>
 
           <!-- Desktop sign in links -->
-          <ul class="flex grow justify-end flex-wrap items-center">
+          <ul class="flex grow justify-end flex-wrap items-center pr-6">
             <img class="mt-2 w-[8rem] h-auto" src="../images/coming-soon.png" width="540" height="405" alt="Hero" />
             <!--
             <li>
@@ -84,10 +91,17 @@
             >
               <ul class="px-5 py-2">
                 <li>
-                  <router-link to="/pricing" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Pricing</router-link>
+                  <router-link to="/about" class="flex font-medium text-slate-800 hover:text-teal-600 py-2">About</router-link>
                 </li>
                 <li>
-                  <router-link to="/about" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">About</router-link>
+                  <router-link to="/updates" class="flex font-medium text-slate-800 hover:text-teal-600 py-2 pb-3">Updates</router-link>
+                </li>
+                <li>
+                  <router-link to="/case-study" class="flex font-medium text-slate-800 hover:text-teal-600 py-2">Case Study</router-link>
+                </li>
+                <!--
+                <li>
+                  <router-link to="/pricing" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Pricing</router-link>
                 </li>
                 <li>
                   <router-link to="/blog" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Blog</router-link>
@@ -109,8 +123,9 @@
                 <li>
                   <router-link to="/signin" class="flex font-medium w-full text-slate-800 hover:text-blue-600 py-2">Sign in</router-link>
                 </li>
+                -->
                 <li>
-                  <router-link to="/request-demo" class="flex font-medium text-blue-600 py-2 group">Request Demo <span class="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></router-link>
+                  <router-link to="/request-demo" class="flex border-t border-b border-slate-200 font-medium text-teal-600 py-2 group">Get Notified <span class="tracking-normal text-teal-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></router-link>
                 </li>
               </ul>
             </nav>

@@ -5,15 +5,15 @@
     <div class="absolute inset-0 bg-slate-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true"></div>
 
     <div class="relative max-w-6xl mx-auto px-4 sm:px-10">
-      <div class="pt-32 pb-20 md:pt-40 md:pb-44">
+      <div class="pt-32 pb-8 md:pt-40 md:pb-32">
 
         <!-- Hero content -->
         <div class="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
 
           <!-- Content -->
           <div class="text-center mb-12 md:text-left md:w-[35rem]" data-aos="fade-right">
-            <h1 class="font-bold text-6xl leading-none tracking-tighter font-gt-america text-slate-100 mb-4">Never let your<br /> past decide<br /> the quality of<br /> your home.</h1>
-            <p class="font-gt-america text-xl max-w-[450px] text-slate-100 mb-8">We help justice impacted renters get approved for safe, high quality housing options, so they can start building the future instead of focusing on the past.</p>
+            <h1 class="font-bold text-5xl md:text-6xl leading-none tracking-tighter font-gt-america text-slate-100 mb-4">Quality tenants<br /> can come with<br /> all kinds of<br /> backgrounds.</h1>
+            <p class="font-gt-america text-xl px-4 md:px-0 max-w-[450px] text-slate-100 mb-8">We help low risk, justice impacted renters get approved for homes while giving properties the assurance they need to welcome their most loyal tenants.</p>
             <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <div>
                 <router-link class="font-bold btn text-white bg-teal-600 hover:bg-teal-700 w-full group" to="/request-demo">
@@ -21,7 +21,7 @@
                 </router-link>
               </div>
               <div>
-                <router-link class="font-bold btn text-slate-700 bg-slate-100 hover:text-teal-600 w-full" to="/about">Explore Product</router-link>
+                <router-link class="font-bold btn text-slate-700 bg-slate-100 hover:text-teal-600 w-full" to="/about">Learn More</router-link>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
           <!-- Hero image -->
           <div data-aos="fade-left">
             <!-- Image -->
-            <div class="flex justify-center items-center">
+            <div class="hidden md:block flex justify-center items-center">
               <div class="relative">
                 <div class="absolute inset-0 pointer-events-none border-2 border-slate-100 mt-3 ml-3 translate-x-4 translate-y-4 -z-10" aria-hidden="true"></div>
                 <img class="mx-auto md:max-w-none shadow-sm w-[400px] h-auto" src="../images/man-looking-out.jpg" width="540" height="405" alt="Hero" />

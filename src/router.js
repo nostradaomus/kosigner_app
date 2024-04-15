@@ -6,6 +6,7 @@ import Blog from './pages/Blog.vue'
 import BlogPost from './pages/BlogPost.vue'
 import WallOfLove from './pages/WallOfLove.vue'
 import WallOfLoveSingle from './pages/WallOfLoveSingle.vue'
+import Updates from './pages/Updates.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 import Support from './pages/Support.vue'
 import SignIn from './pages/SignIn.vue'
@@ -116,6 +117,10 @@ const router = createRouter({
     {
       path: '/case-study',
       component: WallOfLoveSingle
+    },
+    {
+      path: '/updates',
+      component: Updates
     },
     {
       path: '/support',
