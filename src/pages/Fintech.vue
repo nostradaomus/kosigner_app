@@ -6,7 +6,7 @@
 
     <!-- Content area -->
     <div class="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
-      
+
       <!-- Site header -->
       <Header :sidebarOpen="sidebarOpen" @toggle-sidebar="sidebarOpen = !sidebarOpen" />
 
@@ -15,24 +15,27 @@
 
           <!-- Page header -->
           <div class="sm:flex sm:justify-between sm:items-center mb-5">
-          
+
             <!-- Left: Title -->
             <div class="mb-4 sm:mb-0">
-              <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Fintech ✨</h1>
+              <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Welcome Back!</h1>
             </div>
 
             <!-- Right: Actions -->
             <div class="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
-
-              <!-- Datepicker built with flatpickr -->
-              <Datepicker align="right" />
-
-              <!-- Add account button -->
-              <button class="btn bg-indigo-500 hover:bg-indigo-600 text-white">
+              <!-- Invite Applicant Button -->
+              <button
+                class="btn bg-teal-600 hover:bg-teal-700 text-white"
+                :class="{ 'bg-slate-200': searchModalOpen }"
+                @click.stop="searchModalOpen = true"
+                aria-controls="search-modal"
+              >
                 <svg class="w-4 h-4 fill-current opacity-50 shrink-0" viewBox="0 0 16 16">
                   <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z" />
                 </svg>
-                <span class="hidden xs:block ml-2">Add Account</span>
+                <span class="hidden xs:block ml-2">Invite Applicant</span>
+
+                <SearchModal id="search-modal" searchId="search" :modalOpen="searchModalOpen" @open-modal="searchModalOpen = true" @close-modal="searchModalOpen = false" />
               </button>
 
             </div>
@@ -75,7 +78,7 @@
         </div>
       </main>
 
-    </div> 
+    </div>
 
   </div>
 </template>
@@ -129,7 +132,7 @@ export default {
 
     return {
       sidebarOpen,
-    }  
+    }
   }
 }
 </script>

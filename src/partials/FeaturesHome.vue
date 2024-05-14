@@ -92,7 +92,7 @@
               leave-to-class="opacity-0 translate-y-16"
             >
               <div class="w-full" v-show="tab === 3">
-                <img class="mx-auto shadow-2xl" src="../images/features-home-01.jpg" width="768" height="474" alt="Features home 03" />
+                <img class="mx-auto shadow-2xl rounded-md" src="../images/kosigner_residents.png" width="768" height="474" alt="Features home 03" />
               </div>
             </transition>
             <transition

@@ -33,8 +33,12 @@
             </button>
             <SearchModal id="search-modal" searchId="search" :modalOpen="searchModalOpen" @open-modal="searchModalOpen = true" @close-modal="searchModalOpen = false" />
           </div>
+          <!--
           <Notifications align="right" />
+          -->
+          <!--
           <Help align="right" />
+          -->
           <ThemeToggle />
           <!-- Divider -->
           <hr class="w-px h-6 bg-slate-200 dark:bg-slate-700 border-none" />

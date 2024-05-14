@@ -6,7 +6,7 @@
 
     <!-- Content area -->
     <div class="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
-      
+
       <!-- Site header -->
       <Header :sidebarOpen="sidebarOpen" @toggle-sidebar="sidebarOpen = !sidebarOpen" />
 
@@ -18,7 +18,7 @@
 
             <!-- Left: Title -->
             <div class="mb-4 sm:mb-0">
-              <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Acme Inc. ✨</h1>
+              <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Sunrise Apartments</h1>
             </div>
 
             <!-- Right: Actions  -->
@@ -26,13 +26,13 @@
               <!-- Search form -->
               <SearchForm />
               <!-- Add member button -->
-              <button class="btn bg-indigo-500 hover:bg-indigo-600 text-white">
+              <button class="btn bg-teal-600 hover:bg-teal-700 text-white">
                 <svg class="w-4 h-4 fill-current opacity-50 shrink-0" viewBox="0 0 16 16">
                   <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z" />
                 </svg>
-                <span class="hidden xs:block ml-2">Add Member</span>
+                <span class="hidden xs:block ml-2">Invite Applicant</span>
               </button>
-            </div>            
+            </div>
 
           </div>
 
@@ -44,16 +44,16 @@
               :item="item"
             />
           </div>
-          
+
           <!-- Pagination -->
           <div class="mt-8">
             <PaginationNumeric />
-          </div>           
+          </div>
 
         </div>
       </main>
 
-    </div> 
+    </div>
 
   </div>
 </template>
@@ -98,103 +98,128 @@ export default {
         name: 'Dominik McNeail',
         image: Image01,
         link: '#0',
-        location: '🇮🇹',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '104B',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 1,
         name: 'Ivan Mesaros',
         image: Image02,
         link: '#0',
-        location: '🇫🇷',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '204G',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 2,
         name: 'Tisha Yanchev',
         image: Image03,
         link: '#0',
-        location: '🇩🇪',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '117A',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 3,
         name: 'Sergio Gonnelli',
         image: Image04,
         link: '#0',
-        location: '🇮🇹',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '109C',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 4,
         name: 'Jerzy Wierzy',
         image: Image05,
         link: '#0',
-        location: '🇪🇸',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '410B',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 5,
         name: 'Mirko Grubisic',
         image: Image06,
         link: '#0',
-        location: '🇩🇪',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '614D',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 6,
         name: 'Alisha Acharya',
         image: Image07,
         link: '#0',
-        location: '🇬🇧',
+        location: '922C',
         content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 7,
         name: 'Brian Halligan',
         image: Image08,
         link: '#0',
-        location: '🇺🇸',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '101A',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 8,
         name: 'Patricia Semklo',
         image: Image09,
         link: '#0',
-        location: '🇮🇳',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '206C',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 9,
         name: 'Maria Martinez',
         image: Image10,
         link: '#0',
-        location: '🇮🇹',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '334A',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 10,
         name: 'Vedad Siljak',
         image: Image11,
         link: '#0',
-        location: '🇨🇦',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
+        location: '519C',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
       },
       {
         id: 11,
         name: 'Dominik Lamakani',
         image: Image12,
         link: '#0',
-        location: '🇧🇪',
-        content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
-      },      
+        location: '244E',
+        unreadMessages: 'Messages',
+        openIssues: 'Open Issues',
+        totalIssues: 'Past Issues'
+      },
     ])
 
     return {
       sidebarOpen,
       items,
-    }  
+    }
   }
 }
 </script>

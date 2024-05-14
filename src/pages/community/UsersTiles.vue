@@ -6,7 +6,7 @@
 
     <!-- Content area -->
     <div class="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
-      
+
       <!-- Site header -->
       <Header :sidebarOpen="sidebarOpen" @toggle-sidebar="sidebarOpen = !sidebarOpen" />
 
@@ -18,7 +18,7 @@
 
             <!-- Left: Title -->
             <div class="mb-4 sm:mb-0">
-              <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Acme Inc. ✨</h1>
+              <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Sunsine Apartments</h1>
             </div>
 
             <!-- Right: Actions  -->
@@ -32,7 +32,7 @@
                 </svg>
                 <span class="hidden xs:block ml-2">Add Member</span>
               </button>
-            </div>            
+            </div>
 
           </div>
 
@@ -44,16 +44,16 @@
               :item="item"
             />
           </div>
-          
+
           <!-- Pagination -->
           <div class="mt-8">
             <PaginationNumeric />
-          </div>           
+          </div>
 
         </div>
       </main>
 
-    </div> 
+    </div>
 
   </div>
 </template>
@@ -189,13 +189,13 @@ export default {
         link: '#0',
         location: '🇧🇪',
         content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer & PHP Lover.',
-      },      
+      },
     ])
 
     return {
       sidebarOpen,
       items,
-    }  
+    }
   }
 }
 </script>

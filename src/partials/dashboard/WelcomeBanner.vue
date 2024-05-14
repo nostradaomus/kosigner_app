@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-indigo-200 dark:bg-indigo-500 p-4 sm:p-6 rounded-sm overflow-hidden mb-8">
+  <div class="relative shadow-md bg-white dark:bg-indigo-500 p-4 sm:p-6 rounded-sm overflow-hidden mb-8 border border-slate-200 dark:border-slate-700">
 
     <!-- Background illustration -->
     <div class="absolute right-0 top-0 -mt-4 mr-16 pointer-events-none hidden xl:block" aria-hidden="true">
@@ -9,12 +9,12 @@
           <path id="welcome-e" d="M40 0l40 80-40-12.5L0 80z" />
           <path id="welcome-g" d="M40 0l40 80-40-12.5L0 80z" />
           <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="welcome-b">
-            <stop stop-color="#A5B4FC" offset="0%" />
-            <stop stop-color="#818CF8" offset="100%" />
+            <stop stop-color="#8ADAD1" offset="0%" />
+            <stop stop-color="#0A766C" offset="100%" />
           </linearGradient>
           <linearGradient x1="50%" y1="24.537%" x2="50%" y2="100%" id="welcome-c">
-            <stop stop-color="#4338CA" offset="0%" />
-            <stop stop-color="#6366F1" stop-opacity="0" offset="100%" />
+            <stop stop-color="#0A766C" offset="0%" />
+            <stop stop-color="#8ADAD1" stop-opacity="0" offset="100%" />
           </linearGradient>
         </defs>
         <g fill="none" fill-rule="evenodd">
@@ -45,8 +45,8 @@
 
     <!-- Content -->
     <div class="relative">
-      <h1 class="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold mb-1">Good afternoon, Acme Inc. 👋</h1>
-      <p class="dark:text-indigo-200">Here is what’s happening with your projects today:</p>
+      <h1 class="text-2xl md:text-3xl text-gray-900 dark:text-slate-100 font-bold mb-1">Good afternoon, Sunrise Apartments 👋</h1>
+      <p class="text-gray-900 dark:text-indigo-200">Here is what’s happening with your renters and applicants:</p>
     </div>
 
   </div>
